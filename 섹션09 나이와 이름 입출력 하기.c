@@ -5,11 +5,11 @@ int main(void)
 	char szName[32] = { 0 };
 	int nAge = 0;
 
-	printf("³ªÀÌ¸¦ ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ë‚˜ì´ë¥¼ ì…ë ¥í•˜ì„¸ìš”: ");
 	scanf_s("%d%*c", &nAge);
-	printf("ÀÌ¸§À» ÀÔ·ÂÇÏ¼¼¿ä: ");
+	printf("ì´ë¦„ì„ ì…ë ¥í•˜ì„¸ìš”: ");
 	gets_s(szName, sizeof(szName));
 
-	printf("%d¼¼ %s\n", nAge, szName);
+	printf("%dì„¸ %s\n", nAge, szName);
 	return 0;
 }
